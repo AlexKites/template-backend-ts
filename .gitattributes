@@ -1,0 +1,4 @@
+*.ts eol=lf
+*.js eol=lf
+.env* eol=lf
+```

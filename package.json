@@ -1,0 +1,39 @@
+{
+  "name": "template-backend-ts",
+  "version": "1.0.0",
+  "description": "Template for Origen Software SL possible projects regarding everything that involves developing a Backend with Express. Done with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKites/template-backend-ts.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Express",
+    "Javascript",
+    "Backend",
+    "Sequelize",
+    "Node"
+  ],
+  "author": "Origen Software SL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKites/template-backend-ts/issues"
+  },
+  "homepage": "https://github.com/AlexKites/template-backend-ts#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.20",
+    "@types/node": "20.8.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
